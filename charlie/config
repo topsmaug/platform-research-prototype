@@ -9,3 +9,5 @@
 [branch "v1.x"]
 	remote = origin
 	merge = refs/heads/v1.x
+[test]
+    test=test
