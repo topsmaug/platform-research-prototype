@@ -101,10 +101,12 @@ struct utp_hash_iterator_t {
 uint utp_hash_mem(const void *keyp, size_t keysize);
 uint utp_hash_comp(const void *key_a, const void *key_b, size_t keysize);
 
+/*
 utp_hash_t *utp_hash_create(int N, int key_size, int total_size, int initial, utp_hash_compute_t hashfun = utp_hash_mem, utp_hash_equal_t eqfun = NULL);
 void *utp_hash_lookup(utp_hash_t *hash, const void *key);
 void *utp_hash_add(utp_hash_t **hashp, const void *key);
 void *utp_hash_del(utp_hash_t *hash, const void *key);
+*/
 
 void *utp_hash_iterate(utp_hash_t *hash, utp_hash_iterator_t *iter);
 void utp_hash_free_mem(utp_hash_t *hash);
